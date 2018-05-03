@@ -51,6 +51,7 @@ class Slider extends Component {
 	}
 
 	touchMove (e) {
+		// 测试git
 		e.preventDefault()
 		if(this.state.autoSlide) {
 			this.stopSlideFun();
